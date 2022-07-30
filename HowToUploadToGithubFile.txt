@@ -1,0 +1,204 @@
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (master)
+$ git init
+Initialized empty Git repository in C:/Users/Test/Desktop/IdeaProjects/.git/
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ClassForLoop/
+        MyHellow/
+        OddEven/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (master)
+$ git add .
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (master)
+$ git commit -m "All OOPs java program"
+[master (root-commit) 8bb4f00] All OOPs java program
+ 152 files changed, 1195 insertions(+)
+ create mode 100644 ClassForLoop/.idea/.gitignore
+ create mode 100644 ClassForLoop/.idea/kotlinc.xml
+ create mode 100644 ClassForLoop/.idea/libraries/KotlinJavaRuntime.xml
+ create mode 100644 ClassForLoop/.idea/misc.xml
+ create mode 100644 ClassForLoop/.idea/modules.xml
+ create mode 100644 ClassForLoop/ClassForLoop.iml
+ create mode 100644 MyHellow/.idea/.gitignore
+ create mode 100644 MyHellow/.idea/kotlinc.xml
+ create mode 100644 MyHellow/.idea/libraries/KotlinJavaRuntime.xml
+ create mode 100644 MyHellow/.idea/misc.xml
+ create mode 100644 MyHellow/.idea/modules.xml
+ create mode 100644 MyHellow/MyHellow.iml
+ create mode 100644 MyHellow/out/production/MyHellow/META-INF/MyHellow.kotlin_module
+ create mode 100644 MyHellow/out/production/MyHellow/MyHellowWorldKt.class
+ create mode 100644 MyHellow/src/main/kotlin/MyHellowWorld.kt
+ create mode 100644 OddEven/.idea/.gitignore
+ create mode 100644 OddEven/.idea/misc.xml
+ create mode 100644 OddEven/.idea/modules.xml
+ create mode 100644 OddEven/.idea/uiDesigner.xml
+ create mode 100644 OddEven/OddEven.iml
+ create mode 100644 OddEven/out/production/OddEven/EvenOdd.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/Check.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/Even.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/EvenUsingDoWhile.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/EvenUsingWhile.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/Odd.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/OddUsingDoWhile.class
+ create mode 100644 OddEven/out/production/OddEven/EvenOddUsingFor/OddUsingWhile.class
+ create mode 100644 OddEven/out/production/OddEven/LeapYear.class
+ create mode 100644 OddEven/out/production/OddEven/Months/Month.class
+ create mode 100644 OddEven/out/production/OddEven/RecCirTriSqa/AreaCount.class
+ create mode 100644 OddEven/out/production/OddEven/ReturningValue/ReturningValue.class
+ create mode 100644 OddEven/out/production/OddEven/ReturningValue/Test.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/Circle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/HelloSir.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/HellowSir.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/Rectangle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/Shape.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/Test.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/Triangle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice/Circle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice/Rectangle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice/Shape.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice/Test.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice/Triangle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice2/Circle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice2/Rectangle.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice2/Shape.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice2/Test.class
+ create mode 100644 OddEven/out/production/OddEven/abstractexample/practice2/Triangle.class
+ create mode 100644 OddEven/out/production/OddEven/access_modifier/AccessModifier.class
+ create mode 100644 OddEven/out/production/OddEven/access_modifier/ClassForPrivate.class
+ create mode 100644 OddEven/out/production/OddEven/access_modifier/ClassForProtected.class
+ create mode 100644 OddEven/out/production/OddEven/access_modifier/ClassForPublic.class
+ create mode 100644 OddEven/out/production/OddEven/array/ArrayOne.class
+ create mode 100644 OddEven/out/production/OddEven/array/ArraySumForPrac.class
+ create mode 100644 OddEven/out/production/OddEven/array/ArraySumUsingFor.class
+ create mode 100644 OddEven/out/production/OddEven/array/ArrayUsingForLoop.class
+ create mode 100644 OddEven/out/production/OddEven/constructors/Student.class
+ create mode 100644 OddEven/out/production/OddEven/constructors/Test.class
+ create mode 100644 OddEven/out/production/OddEven/constructors/overloading_constructor/Teacher.class
+ create mode 100644 OddEven/out/production/OddEven/constructors/overloading_constructor/Test.class
+ create mode 100644 OddEven/out/production/OddEven/factorial/FactorialUsingDoWhile.class
+ create mode 100644 OddEven/out/production/OddEven/factorial/FactorialUsingWhile.class
+ create mode 100644 OddEven/out/production/OddEven/factorial/Factorials.class
+ create mode 100644 OddEven/out/production/OddEven/for_each/Adding_using_for_each.class
+ create mode 100644 OddEven/out/production/OddEven/for_each/MyString.class
+ create mode 100644 OddEven/out/production/OddEven/list/MyList.class
+ create mode 100644 OddEven/out/production/OddEven/method_calling/MethodCalling.class
+ create mode 100644 OddEven/out/production/OddEven/methods/Teacher.class
+ create mode 100644 OddEven/out/production/OddEven/methods/Test.class
+ create mode 100644 OddEven/out/production/OddEven/methods/parametrized/Teacher.class
+ create mode 100644 OddEven/out/production/OddEven/methods/parametrized/Test.class
+ create mode 100644 OddEven/out/production/OddEven/natural_numbers/NaturalNumber.class
+ create mode 100644 OddEven/out/production/OddEven/natural_numbers/NaturalNumberUsingDoWhile.class
+ create mode 100644 OddEven/out/production/OddEven/natural_numbers/NaturalNumberUsingWhile.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/Animal.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/ClassProtected.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/Dog.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/Inheritance.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/abstractclass/Abstract.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/abstractclass/Abstract_Test.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/abstractclass/RequestOne.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/abstractclass/RequestThree.class
+ create mode 100644 OddEven/out/production/OddEven/oop/inheritance/abstractclass/RequestTwo.class
+ create mode 100644 OddEven/out/production/OddEven/series/Series.class
+ create mode 100644 OddEven/out/production/OddEven/series/SeriesUsingDoWhile.class
+ create mode 100644 OddEven/out/production/OddEven/series/SeriesUsingWhile.class
+ create mode 100644 OddEven/out/production/OddEven/static_variable/StaticTest.class
+ create mode 100644 OddEven/out/production/OddEven/static_variable/StaticVariable.class
+ create mode 100644 OddEven/src/EvenOdd.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/Check.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/Even.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/EvenUsingDoWhile.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/EvenUsingWhile.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/Odd.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/OddUsingDoWhile.java
+ create mode 100644 OddEven/src/EvenOddUsingFor/OddUsingWhile.java
+ create mode 100644 OddEven/src/LeapYear.java
+ create mode 100644 OddEven/src/Months/Month.java
+ create mode 100644 OddEven/src/RecCirTriSqa/AreaCount.java
+ create mode 100644 OddEven/src/ReturningValue/ReturningValue.java
+ create mode 100644 OddEven/src/ReturningValue/Test.java
+ create mode 100644 OddEven/src/abstractexample/Circle.java
+ create mode 100644 OddEven/src/abstractexample/HelloSir.java
+ create mode 100644 OddEven/src/abstractexample/HellowSir.java
+ create mode 100644 OddEven/src/abstractexample/Rectangle.java
+ create mode 100644 OddEven/src/abstractexample/Shape.java
+ create mode 100644 OddEven/src/abstractexample/Test.java
+ create mode 100644 OddEven/src/abstractexample/Triangle.java
+ create mode 100644 OddEven/src/abstractexample/practice/Circle.java
+ create mode 100644 OddEven/src/abstractexample/practice/Rectangle.java
+ create mode 100644 OddEven/src/abstractexample/practice/Shape.java
+ create mode 100644 OddEven/src/abstractexample/practice/Test.java
+ create mode 100644 OddEven/src/abstractexample/practice/Triangle.java
+ create mode 100644 OddEven/src/abstractexample/practice2/Circle.java
+ create mode 100644 OddEven/src/abstractexample/practice2/Rectangle.java
+ create mode 100644 OddEven/src/abstractexample/practice2/Shape.java
+ create mode 100644 OddEven/src/abstractexample/practice2/Test.java
+ create mode 100644 OddEven/src/abstractexample/practice2/Triangle.java
+ create mode 100644 OddEven/src/access_modifier/AccessModifier.java
+ create mode 100644 OddEven/src/array/ArrayOne.java
+ create mode 100644 OddEven/src/array/ArraySumForPrac.java
+ create mode 100644 OddEven/src/array/ArraySumUsingFor.java
+ create mode 100644 OddEven/src/array/ArrayUsingForLoop.java
+ create mode 100644 OddEven/src/constructors/Student.java
+ create mode 100644 OddEven/src/constructors/Test.java
+ create mode 100644 OddEven/src/constructors/overloading_constructor/Teacher.java
+ create mode 100644 OddEven/src/constructors/overloading_constructor/Test.java
+ create mode 100644 OddEven/src/factorial/FactorialUsingDoWhile.java
+ create mode 100644 OddEven/src/factorial/FactorialUsingWhile.java
+ create mode 100644 OddEven/src/factorial/Factorials.java
+ create mode 100644 OddEven/src/for_each/Adding_using_for_each.java
+ create mode 100644 OddEven/src/for_each/MyString.java
+ create mode 100644 OddEven/src/list/MyList.java
+ create mode 100644 OddEven/src/method_calling/MethodCalling.java
+ create mode 100644 OddEven/src/methods/Teacher.java
+ create mode 100644 OddEven/src/methods/Test.java
+ create mode 100644 OddEven/src/methods/parametrized/Teacher.java
+ create mode 100644 OddEven/src/methods/parametrized/Test.java
+ create mode 100644 OddEven/src/natural_numbers/NaturalNumber.java
+ create mode 100644 OddEven/src/natural_numbers/NaturalNumberUsingDoWhile.java
+ create mode 100644 OddEven/src/natural_numbers/NaturalNumberUsingWhile.java
+ create mode 100644 OddEven/src/oop/inheritance/ClassProtected.java
+ create mode 100644 OddEven/src/oop/inheritance/Inheritance.java
+ create mode 100644 OddEven/src/oop/inheritance/abstractclass/Abstract.java
+ create mode 100644 OddEven/src/package-info.java
+ create mode 100644 OddEven/src/series/Series.java
+ create mode 100644 OddEven/src/series/SeriesUsingDoWhile.java
+ create mode 100644 OddEven/src/series/SeriesUsingWhile.java
+ create mode 100644 OddEven/src/static_variable/StaticTest.java
+ create mode 100644 OddEven/src/static_variable/StaticVariable.java
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (master)
+$ git branch -M main
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (main)
+$ git remote add origin https://github.com/Mahmud0639/ideal-project-java
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (main)
+$ git push -u origin main
+
+Unhandled Exception: System.ComponentModel.Win32Exception: Invalid window handle
+   at MS.Win32.ManagedWndProcTracker.HookUpDefWindowProc(IntPtr hwnd)
+   at MS.Win32.ManagedWndProcTracker.OnAppDomainProcessExit()
+   at MS.Internal.ShutDownListener.HandleShutDown(Object sender, EventArgs e)
+Enumerating objects: 211, done.
+Counting objects: 100% (211/211), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (187/187), done.
+Writing objects: 100% (211/211), 46.80 KiB | 1.30 MiB/s, done.
+Total 211 (delta 50), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (50/50), done.
+To https://github.com/Mahmud0639/ideal-project-java
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Test@DESKTOP-PQ5DKTU MINGW64 ~/Desktop/IdeaProjects (main)
